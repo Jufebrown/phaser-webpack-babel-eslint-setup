@@ -21,7 +21,9 @@ ___
 
 `eslint --init`
 
-update .eslintrc.json (I use airbnb style and have set the environment to browser so it doesn't throw annoying errors)
+I choose to use a popular style guide (airbnb) and say yes when it asks if I want to install dependencies now.
+
+Update .eslintrc.json with "env" and "globals" fields.
 
 **Webpack setup**
 
