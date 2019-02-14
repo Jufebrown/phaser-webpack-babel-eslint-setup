@@ -9,39 +9,39 @@ ___
 
 **Initialize npm**
 
-`npm init -y`
+- `npm init -y`
 
 **Install dependencies**
 
-`npm i phaser`
+- `npm i phaser`
 
 **Install dev dependencies**
 
-`npm i -D eslint webpack webpack-cli`
+- `npm i -D eslint webpack webpack-cli`
 
 
 **Eslint setup**
 
-`eslint --init`
+- `eslint --init`
 
-I choose to use a popular style guide (airbnb) and say yes when it asks if I want to install dependencies now. It will install eslint-config-airbnb-base and eslint-plugin-import.
+- I choose to use a popular style guide (airbnb) and say yes when it asks if I want to install dependencies now. It will install eslint-config-airbnb-base and eslint-plugin-import.
 
-Update .eslintrc.json with "env" and "globals" fields.
+- Update .eslintrc.json with "env" and "globals" fields.
 
 **Webpack setup**
 
-remove "main" field from package.json
+- remove "main" field from package.json
 
-add "private" field to package.json => `"private": true,`
+- add "private" field to package.json => `"private": true,`
 
-`mkdir src dist`
+- `mkdir src dist`
 
-`touch src/index.js`
+- `touch src/index.js`
 
-`touch dist/index.html`
+- `touch dist/index.html`
 
-`touch webpack.config.js`
+- `touch webpack.config.js`
 
-paste code into dist/index.html and src/index.js and webpack.config.js
+- paste code into dist/index.html and src/index.js and webpack.config.js
 
-add script to package.json => `"build": "webpack"`
+- add script to package.json => `"build": "webpack"`
