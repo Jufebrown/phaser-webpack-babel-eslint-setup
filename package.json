@@ -17,7 +17,9 @@
     "url": "https://github.com/Jufebrown/phaser-webpack-babel-eslint-setup/issues"
   },
   "homepage": "https://github.com/Jufebrown/phaser-webpack-babel-eslint-setup#readme",
-  "dependencies": {},
+  "dependencies": {
+    "phaser": "^3.16.2"
+  },
   "devDependencies": {
     "eslint": "^5.13.0",
     "eslint-config-airbnb-base": "^13.1.0",

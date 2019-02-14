@@ -11,6 +11,9 @@ ___
 
 `npm init -y`
 
+**Install dependencies**
+
+`npm i phaser`
 
 **Install dev dependencies**
 
