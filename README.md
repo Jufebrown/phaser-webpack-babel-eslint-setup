@@ -15,12 +15,24 @@ ___
 `npm i -D eslint webpack webpack-cli`
 
 
-**Add config files**
+**Eslint setup**
 
 `eslint --init`
 
 update .eslintrc.json (I use airbnb style)
 
-webpack.config.js
+**Webpack setup**
+
+remove "main" field from package.json
+
+add "private" field to package.json => `"private": true,`
+
+`mkdir src`
+
+`touch src/index.js`
+
+`touch index.html`
+
+add webpack.config.js
 
 
