@@ -2,7 +2,8 @@
 
 To provide a checklist of steps for setting up a project with phaser, eslint, webpack, and babel.
 
-=====Steps
+___
+## **Steps:**
 
 **Initialize npm**
 
