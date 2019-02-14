@@ -2,6 +2,8 @@
 
 To provide a checklist of steps for setting up a project with phaser, eslint, webpack, and babel.
 
+At the time of writing this, the versions of each package are what is listed in the package.json.
+
 ___
 ## **Steps:**
 
