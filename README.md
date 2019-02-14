@@ -12,12 +12,14 @@ ___
 
 **Install dev dependencies**
 
-`npm i -D eslint eslint-config-airbnb-base eslint-plugin-import webpack`
+`npm i -D eslint webpack`
 
 
 **Add config files**
 
-eslintrc.json
+`eslint --init`
+
+update .eslintrc.json (I use airbnb style)
 
 webpack.config.js
 
