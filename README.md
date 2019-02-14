@@ -31,12 +31,14 @@ remove "main" field from package.json
 
 add "private" field to package.json => `"private": true,`
 
-`mkdir src`
+`mkdir src dist`
 
 `touch src/index.js`
 
-`touch index.html`
+`touch dist/index.html`
 
 add webpack.config.js
+
+add code to dist/index.html and src/index.js
 
 
