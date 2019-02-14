@@ -16,5 +16,7 @@ ___
 
 
 **Add config files**
+eslintrc.json
+webpack.config.js
 
 
