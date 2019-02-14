@@ -21,7 +21,7 @@ ___
 
 `eslint --init`
 
-I choose to use a popular style guide (airbnb) and say yes when it asks if I want to install dependencies now.
+I choose to use a popular style guide (airbnb) and say yes when it asks if I want to install dependencies now. It will install eslint-config-airbnb-base and eslint-plugin-import.
 
 Update .eslintrc.json with "env" and "globals" fields.
 
