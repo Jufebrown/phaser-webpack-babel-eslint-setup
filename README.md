@@ -1,9 +1,13 @@
 # phaser-webpack-babel-eslint-setup
 
-### Initialize npm
+**Initialize npm**
+
 `npm init -y`
 
 
-### Install eslint
+**Install eslint**
+
 `npm i eslint`
+
+
 
