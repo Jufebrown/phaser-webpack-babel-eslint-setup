@@ -37,8 +37,8 @@ add "private" field to package.json => `"private": true,`
 
 `touch dist/index.html`
 
-add webpack.config.js
+`touch webpack.config.js`
 
-add code to dist/index.html and src/index.js
+paste code into dist/index.html and src/index.js and webpack.config.js
 
 
