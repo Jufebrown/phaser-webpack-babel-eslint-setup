@@ -5,7 +5,7 @@
 `npm init -y`
 
 
-**Install devdependencies**
+**Install dev dependencies**
 
 `npm i -D eslint webpack`
 
