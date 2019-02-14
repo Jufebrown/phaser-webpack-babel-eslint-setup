@@ -44,4 +44,4 @@ add "private" field to package.json => `"private": true,`
 
 paste code into dist/index.html and src/index.js and webpack.config.js
 
-
+add script to package.json => `"build": "webpack"`
