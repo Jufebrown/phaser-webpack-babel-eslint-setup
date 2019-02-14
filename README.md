@@ -19,7 +19,7 @@ ___
 
 `eslint --init`
 
-update .eslintrc.json (I use airbnb style)
+update .eslintrc.json (I use airbnb style and have set the environment to browser so it doesn't throw annoying errors)
 
 **Webpack setup**
 
