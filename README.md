@@ -12,7 +12,7 @@ ___
 
 **Install dev dependencies**
 
-`npm i -D eslint webpack`
+`npm i -D eslint eslint-config-airbnb-base eslint-plugin-import webpack`
 
 
 **Add config files**
