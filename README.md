@@ -9,7 +9,7 @@ ___
 
 **Initialize npm**
 
-- ```npm init -y```
+- `npm init -y`
 
 **Install dependencies**
 
