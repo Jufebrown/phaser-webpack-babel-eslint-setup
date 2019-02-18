@@ -8,6 +8,8 @@ The purpose of this repo is to provide a checklist of steps for a basic setup fo
 
 At the time of writing, the versions of each package are what is listed in the package.json.
 
+You can either fork this repo and modify it to suit your needs or follow the steps below.
+
 ___
 ## **Steps:**
 
