@@ -18,11 +18,11 @@ ___
 
 **Install dependencies**
 
-- `npm i phaser`
+- `npm i phaser @babel/polyfill`
 
 **Install dev dependencies**
 
-- `npm i -D eslint webpack webpack-cli webpack-dev-server style-loader css-loader file-loader`
+- `npm i -D eslint webpack webpack-cli webpack-dev-server style-loader css-loader file-loader @babel/core @babel/cli @babel/preset-env`
 
 
 **Eslint setup**
