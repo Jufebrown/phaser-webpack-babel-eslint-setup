@@ -23,7 +23,7 @@ ___
 
 **Install Dev Dependencies**
 
-- `npm i -D eslint webpack webpack-cli webpack-dev-server style-loader css-loader file-loader @babel/core @babel/cli @babel/preset-env`
+- `npm i -D eslint webpack webpack-cli webpack-dev-server style-loader css-loader file-loader @babel/core @babel/cli @babel/preset-env babel-loader`
 
 
 **Eslint Setup**
