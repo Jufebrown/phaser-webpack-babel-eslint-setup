@@ -17,7 +17,7 @@ ___
 
 **Install dev dependencies**
 
-- `npm i -D eslint webpack webpack-cli style-loader css-loader`
+- `npm i -D eslint webpack webpack-cli webpack-dev-server style-loader css-loader`
 
 
 **Eslint setup**
@@ -44,4 +44,8 @@ ___
 
 - paste code into dist/index.html and src/index.js and webpack.config.js
 
-- add script to package.json => `"build": "webpack"`
+- add scripts to package.json
+  ```
+  "build": "webpack",
+  "dev": "webpack-dev-server"
+  ```
