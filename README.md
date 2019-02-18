@@ -17,7 +17,7 @@ ___
 
 **Install dev dependencies**
 
-- `npm i -D eslint webpack webpack-cli webpack-dev-server style-loader css-loader`
+- `npm i -D eslint webpack webpack-cli webpack-dev-server style-loader css-loader file-loader`
 
 
 **Eslint setup**
