@@ -51,3 +51,4 @@ ___
 
 - `touch babel.config.js`
 - paste code into babel.config.js
+- This project uses babel-loader which allows some of the presets to be set right in the webpack.config.js. I'm not sure if it makes the babel.config.js unnecessary.
