@@ -16,16 +16,16 @@ ___
 
 - `npm init -y`
 
-**Install dependencies**
+**Install Dependencies**
 
 - `npm i phaser @babel/polyfill`
 
-**Install dev dependencies**
+**Install Dev Dependencies**
 
 - `npm i -D eslint webpack webpack-cli webpack-dev-server style-loader css-loader file-loader @babel/core @babel/cli @babel/preset-env`
 
 
-**Eslint setup**
+**Eslint Setup**
 
 - `eslint --init`
 
@@ -33,7 +33,7 @@ ___
 
 - Update .eslintrc.json with "env" and "globals" fields.
 
-**Webpack setup**
+**Webpack Setup**
 
 - remove "main" field from package.json
 
@@ -54,3 +54,5 @@ ___
   "build": "webpack",
   "dev": "webpack-dev-server"
   ```
+
+**Babel Setup**
