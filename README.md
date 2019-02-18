@@ -1,6 +1,11 @@
 # phaser-webpack-babel-eslint-setup
 
-The purpose of this repo is to provide a checklist of steps for a basic setup for a project with phaser, eslint, webpack, and babel.
+The purpose of this repo is to provide a checklist of steps for a basic setup for a project with phaser, eslint, webpack, and babel. For information on on the various configuration options, please consult the docs:
+
+- [eslint](https://eslint.org/)
+- [webpack](https://webpack.js.org/)
+- [babel](https://babeljs.io/)
+- [phaser](https://phaser.io/)
 
 At the time of writing, the versions of each package are what is listed in the package.json.
 
