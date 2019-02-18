@@ -10,6 +10,16 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.m?js$/,
+        exclude: /(node_modules|bower_components)/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env'],
+          },
+        },
+      },
+      {
         test: /\.css$/,
         use: [
           'style-loader',
@@ -19,15 +29,15 @@ module.exports = {
       {
         test: /\.(png|svg|jpg|gif)$/,
         use: [
-          'file-loader'
-        ]
+          'file-loader',
+        ],
       },
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/,
         use: [
-          'file-loader'
-        ]
-      }
+          'file-loader',
+        ],
+      },
     ],
   },
 };
