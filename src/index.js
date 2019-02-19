@@ -2,13 +2,25 @@ import 'phaser';
 import 'TitleScene' from './scenes/TitleScene';
 import './style.css';
 
-function component() {
-  const element = document.createElement('div');
+const config = {
+  type: Phaser.WEBGL,
+  pixelArt: true,
+  roundPixels: true,
+  parent: 'content',
+  width: 400,
+  height: 240,
+  physics: {
+      default: 'arcade',
+      arcade: {
+          gravity: {
+              y: 800
+          },
+          debug: false
+      }
+  },
+  scene: [
+      TitleScene,
+  ]
+};
 
-  element.innerText = 'hello';
-  element.classList.add('test');
-
-  return element;
-}
-
-document.body.appendChild(component());
+const game = new Phaser.Game(config); // eslint-disable-line no-unused-vars
