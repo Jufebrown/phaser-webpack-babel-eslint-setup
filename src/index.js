@@ -1,3 +1,5 @@
+import 'phaser';
+import 'TitleScene' from './scenes/TitleScene';
 import './style.css';
 
 function component() {
