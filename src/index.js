@@ -1,5 +1,5 @@
 import 'phaser';
-import 'TitleScene' from './scenes/TitleScene';
+import { TitleScene } from './scenes/TitleScene';
 import './style.css';
 
 const config = {
@@ -10,11 +10,11 @@ const config = {
   width: 800,
   height: 600,
   physics: {
-      default: 'arcade',
+    default: 'arcade',
   },
   scene: [
-      TitleScene,
-  ]
+    TitleScene,
+  ],
 };
 
 const game = new Phaser.Game(config); // eslint-disable-line no-unused-vars
