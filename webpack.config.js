@@ -49,5 +49,9 @@ module.exports = {
         to: path.resolve(__dirname, 'dist'),
       },
     ]),
+    new CopyWebpackPlugin.DefinePlugin({
+      'typeof CANVAS_RENDERER': JSON.stringify(true),
+      'typeof WEBGL_RENDERER': JSON.stringify(true),
+    }),
   ],
 };
