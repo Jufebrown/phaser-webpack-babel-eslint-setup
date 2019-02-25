@@ -1,5 +1,5 @@
 import 'phaser';
-import { TitleScene } from './scenes/TitleScene';
+import TitleScene from './scenes/TitleScene';
 import './style.css';
 
 const config = {
