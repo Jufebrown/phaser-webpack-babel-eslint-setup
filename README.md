@@ -40,7 +40,9 @@ ___
 - `touch src/index.js`
 - `touch dist/index.html`
 - `touch webpack.config.js`
-- paste code into dist/index.html and src/index.js and webpack.config.js
+- paste code from this repo into dist/index.html
+- paste code from this repo into src/index.js
+- paste code from this repo into webpack.config.js
 - add scripts to package.json
   ```
   "build": "webpack",
@@ -57,7 +59,9 @@ ___
 
 - `mkdir scenes`
 - `touch scenes/TitleScene.js`
-- paste code into TitleScene.js
+- `touch scenes/GameScene.js`
+- paste code from this repo into TitleScene.js
+- paste code from this repo into GameScene.js
 
 **Build and Serve**
 
