@@ -11,9 +11,8 @@
     "type": "git",
     "url": "git+https://github.com/Jufebrown/phaser-webpack-babel-eslint-setup.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Jufe",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Jufebrown/phaser-webpack-babel-eslint-setup/issues"
   },
