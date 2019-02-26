@@ -8,7 +8,7 @@ export default class TitleScene extends Phaser.Scene {
   create() {
     this.add.text(100, 100, 'Hello World', { font: '65px arial', fill: '#b50015' });
 
-    const startGameButton = this.add.text(100, 200, 'Start Game', { font: '14px arial', fill: '#fff' })
+    this.startGameButton = this.add.text(100, 200, 'Start Game', { font: '16px arial' })
       .setInteractive()
       .on('pointerdown', () => this.startGame())
       .on('pointerover', () => this.enterButtonHoverState())
