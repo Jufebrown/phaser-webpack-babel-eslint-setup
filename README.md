@@ -1,17 +1,24 @@
 # phaser-webpack-babel-eslint-setup
 
+## **General Notes**
 The purpose of this repo is to provide a checklist of steps for a basic setup for a project with phaser, eslint, webpack, and babel. For information on on the various configuration options, please consult the docs:
 - [eslint](https://eslint.org/)
 - [webpack](https://webpack.js.org/)
 - [babel](https://babeljs.io/)
 - [phaser](https://phaser.io/)
 
-At the time of writing, the versions of each package are what is listed in the package.json.
+This project was influenced by a couple of tutorials:
+- [A Modern Web Development Setup For Phaser 3](https://snowbillr.github.io/blog//2018-04-09-a-modern-web-development-setup-for-phaser-3/)
+- [Getting Started in Phaser 3 (ES6) – Create a Boomdots game](http://codetuto.com/2018/02/getting-started-phaser-3-es6-create-boomdots-game//)
+
+Unfortunately, even though these tutorials are fairly recent, there are are some things in both that have been deprecated in relation to webpack and babel. Also, I wanted a reference that covered the 'what' more than the 'why'. If you want to understand why things are done the way they are, I encourage you to go through both tutorials as well as reading the 'getting started' portions of the documentation above.
+
+At the time of writing, the versions of the project dependencies are what is listed in the package.json file.
 
 You can either fork this repo and modify it to suit your needs or follow the steps below.
 
 ___
-## **Steps:**
+## **Steps**
 
 **Initialize npm**
 
