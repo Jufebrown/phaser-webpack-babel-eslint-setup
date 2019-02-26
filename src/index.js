@@ -1,5 +1,6 @@
 import 'phaser';
 import TitleScene from './scenes/TitleScene';
+import GameScene from './scenes/GameScene';
 import './style.css';
 
 const config = {
@@ -14,6 +15,7 @@ const config = {
   },
   scene: [
     TitleScene,
+    GameScene,
   ],
 };
 

@@ -58,3 +58,8 @@ ___
 - `mkdir scenes`
 - `touch scenes/TitleScene.js`
 - paste code into TitleScene.js
+
+**Build and Serve**
+
+- `npm run dev`
+- navigate to localhost:8080 in your browser to see the game
